@@ -1,0 +1,30 @@
+html {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+body {
+	background-color: white;
+	color: #777777;
+	font-family: "Raleway", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0;
+}
+
+#footer {
+    background: #f5f5f5 none repeat scroll 0 0;
+    clear: both;
+    font-size: 0.9em;
+    margin-top: 50px;
+    position: relative;
+}
+#footer .main-footer {
+    margin-bottom: 40px;
+    padding: 80px 15px 0;
+}
+#footer .footer-copyright {
+    background: #dcdcdc none repeat scroll 0 0;
+    border-top: 4px solid #dedede;
+    padding: 30px 0 10px;
+}

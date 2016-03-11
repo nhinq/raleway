@@ -1,0 +1,416 @@
+/* DRUPAL THEME STYLES */
+.alert ul {
+	padding-left: 20px;
+}
+
+.latest-projects-content-image img {
+	max-width: 450px;
+}
+
+.clearfix {
+	display: block;
+}
+
+article.clearfix {
+  display: inline;
+}
+
+#block-user-login .pagination {
+	margin-top: 10px;
+}
+
+#block-user-login .pagination-lg>li>a {
+	border-radius: 6px;
+	font-size: 13px;
+}
+
+#block-user-login .pagination-lg>li:first-child>a {
+	margin-bottom: 10px;
+}
+
+.modal-body {
+	overflow: auto;
+}
+
+#toolbar.clearfix, .toolbar-menu.clearfix, .toolbar-drawer.clearfix {
+	display: block;
+}
+
+#user-login input, #user-register-form input, #user-pass input {
+	width: 35%;
+}
+
+#user-login input[type="submit"], #user-register-form input[type="submit"], #user-pass input[type="submit"] {
+	width: auto;
+}
+
+.body .form-text, .body .form-textarea {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.team-item img, .portfolio-item img {
+	max-width: 100%;
+	height: auto;
+}
+
+#user-login label {
+	display: block;
+}
+
+.tweet-box {
+	margin-bottom: 20px;
+}
+ 
+.comment .img-thumbnail img {
+	height: 80px;
+	width: 80px;
+}
+
+#block-views-contact-us-block {
+	margin-top: -70px;
+}
+
+#navbar.single-menu .social-icons {
+margin-top: 15px;
+}
+
+body.sticky-menu-active #navbar.single-menu .social-icons {
+margin-top: 27px;
+}
+
+#navbar nav ul.nav-main>li.dropdown>a.disabled::after {
+  font-family: 'FontAwesome';
+	content: "\f107";
+	margin-left: 5px;
+}
+
+.post-image img {
+	max-width: 100%;
+	height: auto;
+}
+ 
+header .content {
+	overflow: visible;
+}
+
+.region-sidebar-right h4, .region-sidebar-left h4 {
+	margin-top: 25px;
+}
+
+.region-sidebar-right h4:first-child, .region-sidebar-left h4:first-child {
+	margin-top: 0px;
+}
+
+#admin-menu li {
+	line-height: 1.4em !important;
+}
+
+#edit-checkout {
+	margin-left: 10px;
+}
+
+.view-commerce-cart-form .form-type-textfield {
+	margin-top: -5px !important;
+}
+
+.view-commerce-cart-form td {
+  width: 24%;
+  padding: 20px 15px 5px 15px;
+}
+
+.commerce-price-formatted-components .component-title, .commerce-price-formatted-components .component-total {
+	padding: 15px;
+}
+
+.checkout-continue {
+	margin-right: 10px;
+}
+
+.tabbed-title {
+  font-size: 12px;
+}
+
+.site-map-menus .title {
+	display: none;
+}
+
+div.home-intro {
+  background-color: #141414;
+}
+
+#name-and-slogan {
+	float: left;
+	margin: 22px 0px;
+}
+
+body.sticky-menu-active header #name-and-slogan {
+	float: left;
+	margin: 45px 0px 0px 0px;
+}
+
+body.sticky-menu-active header #site-slogan{
+  font-size: 12px;
+}
+
+body.sticky-menu-active header .logo {
+	position: relative;
+	margin: 45px 15px 0px 0px;
+}
+
+#site-name {
+	margin: 5px 0px 10px 0px;
+	font-size: 32px;
+}
+
+.slogan-no-name { 
+	margin-top: 25px;
+}
+
+body.sticky-menu-active header.single-menu .logo {
+	margin-top: 60px;
+}
+
+body.sticky-menu-active header #site-name {
+  margin: 2px 0px -10px 0px;
+  font-size: 22px;
+}
+.mobile-menu {
+	display: none;
+	margin-top: 55px;
+  width: 100%;
+}
+
+header.flat-menu nav ul.nav-main li ul li a {
+	padding: 8px 10px 8px 5px;
+}
+#navbar-top { overflow: hidden; }
+
+span.thumb-info-caption p {
+  min-height: 60px;
+}
+
+#user-login .form-actions {
+	padding: 0px;
+	background-color: transparent;
+	border: none;
+}
+
+ul.primary li a {
+  background-color: transparent; 
+  border-color: none; 
+  border-style: none; 
+}  
+
+.block ul.primary {
+	border-bottom: 0px;
+	padding-left: 0px;
+}
+
+#block-search-form form {
+	margin-bottom: -10px;
+}
+
+.footer-logo {
+	float: left;
+	margin-right: 10px;
+}
+
+.footer-logo img {
+	height: 35px;
+}
+
+.contact-form .form-actions {
+	padding: 20px 0px;
+	background: transparent;
+	border-top: none;
+}
+
+.comment-form .form-actions {
+	padding: 20px 0px;
+	background: transparent;
+	border-top: none;
+}
+
+.comment-form .form-actions input[type="submit"] {
+  margin-right: 10px;
+}
+
+.comment-form .form-type-textfield {
+	margin-left: 0px;
+}
+
+.comment-form .form-item-name {
+	margin-right: 30px;
+}
+
+.comment-form .form-type-textfield input[type="text"] {
+	width: 100%;
+}
+
+.comment-form .form-textarea-wrapper {
+	width: 97%;
+}
+
+.comment-form .form-textarea-wrapper .text-full {
+	height: 250px;
+}
+
+.toggle label {
+	font-weight: normal;
+}
+
+label {
+	clear: both;
+}
+
+div.post-leave-comment h3 {
+  margin: 0 0 25px !important; 
+}
+
+.comment-form .filter-wrapper {
+	margin-left: -20px;
+  margin-top: 10px;
+}
+
+.comment .thumbnail img {
+	display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+	height: 80px;
+	width: 80px;
+}
+
+.comment-block .pull-right {
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+
+.indented {
+  margin-left: 115px !important;
+}
+
+.post-medium-image .single-post-image {
+	overflow: hidden;
+}
+
+article.post-medium-image {
+	border-bottom: 1px solid #DDD;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+.single-post-image li{
+	list-style: none;
+	margin-left: -60px;
+	margin-bottom: 30px;
+}
+
+ul.links.inline li {
+	padding-left: 10px;
+}
+
+.comment-content p {
+	clear: both;
+	margin-left: 30px !important;
+}
+
+.profile .user-picture { 
+	margin-top: 60px !important;
+}
+
+#branding {
+	display: inline-block;
+	float: left;
+}
+
+#navbar-top {
+	overflow: hidden;
+}
+
+.nav-top {
+	float: right;
+}
+
+.dropdown i {
+	margin-left: 5px;
+}
+
+.dropdown-menu i {
+	display: none;
+}
+
+.dropdown-menu {
+	margin-top: -3px;
+}
+
+footer h2 {
+	font-size: 1.8em;
+	margin-bottom: 14px;
+	line-height: 27px;
+}
+
+hr {
+	border: none !important;
+} 
+.contact-form .form-item-name, .contact-form .form-item-subject {
+	margin-left: 0px;
+}
+
+.contact-form .form-textarea-wrapper textarea {
+  height: 200px;
+}
+
+.span6 .portfolio-item img {
+	width: 560px;
+}
+.item-list ul li {
+  margin: 0px !important;
+} 
+
+#block-search-form {
+	float: right;
+	margin: 10px 0 0 15px;
+	position: relative;
+}
+
+#block-search-form input.search:first-child {
+	-webkit-transition: all 0.2s ease-in 0.2s;
+	-moz-transition: all 0.2s ease-in 0.2s;
+	transition: all 0.2s ease-in 0.2s;
+	border-radius: 20px;
+	width: 170px;
+	font-size: 0.9em;
+	padding: 6px 12px;
+	height: 34px;
+	margin: 0;
+}
+
+#block-search-form input.search:focus {
+	width: 220px;
+	border-color: #CCC;
+}
+
+#block-search-form button.btn-default {
+	border: 0;
+	background: transparent;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #CCC;
+	z-index: 3;
+}

@@ -1,0 +1,372 @@
+@import "mixins";
+
+// Basic
+h3, h4, h5 {
+	color: @styleColor;
+}
+
+a {
+	color: @styleColor;
+	&:hover {
+		color: lighten(@styleColor, 5%);
+	}
+	&:active {
+		color: darken(@styleColor, 5%);
+	}
+}
+
+.alternative-font {
+	color: @styleColor;
+}
+
+// Drop Caps
+p.drop-caps {
+	&:first-child:first-letter {
+		color: @styleColor;
+	}
+	&.secundary:first-child:first-letter {
+		background-color: @styleColor;
+	}
+}
+
+// Nav
+ul.nav-pills > li.active > a {
+	background-color: @styleColor;
+	&:hover, &:focus {
+		background-color: @styleColor;
+	}
+}
+
+// Sort
+.sort-source-wrapper .nav > li.active > a {
+	color: @styleColor;
+	&:hover, &:focus {
+		color: @styleColor;
+	}
+}
+
+// Pagination
+.pagination > .active > {
+	a, span, a:hover, span:hover, a:focus, span:focus {
+		background-color: @styleColor ;
+	}
+}
+
+// Buttons
+.btn-primary,
+.pagination > .active > a
+.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+	border-color: @styleColor ;
+	background-color: @styleColor;
+}
+
+.btn-primary:hover {
+	background-color: lighten(@styleColor, 5%);
+}
+
+.progress-bar-primary {
+	background-color: @styleColor;
+}
+
+// Sections
+section.highlight {
+	background-color: @styleColor ;
+	border-color: darken(@styleColor, 5%) ;
+}
+
+section.page-top h2 {
+	border-bottom-color: @styleColor;
+}
+
+section.toggle {
+	label {
+		color: @styleColor;
+		border-left-color: @styleColor;
+	}
+	&.active > label {
+		background-color: @styleColor;
+		border-color: @styleColor;
+		color: #FFF;
+	}
+}
+
+section.page-top.custom-product {
+	background-color: darken(@styleColor, 5%);
+	border-top-color: darken(@styleColor, 2%);
+}
+
+// Featured Box
+.feature-box .feature-box-icon {
+	background-color: @styleColor;
+}
+
+.feature-box.secundary .feature-box-icon i.icon {
+	color: @styleColor;
+}
+
+// Thumb
+.thumb-info {
+	.thumb-info-type {
+		background-color: @styleColor;
+	}
+	.thumb-info-action-icon {
+		background-color: @styleColor;
+	}
+}
+
+.thumb-info-social-icons a {
+	background-color: @styleColor;
+}
+
+.thumbnail .zoom {
+	background-color: @styleColor;
+}
+
+// Inverted
+.inverted {
+	background-color: @styleColor;
+}
+
+// Tabs
+ul.nav-tabs {
+		a, a:hover {
+			color: @styleColor;
+		}
+
+		a:hover {
+			border-top-color: @styleColor;
+		}
+
+		li.active a {
+			border-top-color: @styleColor;
+			color: @styleColor;
+		}
+	}
+	&.tabs-bottom {
+		ul.nav-tabs {
+			li a:hover,
+			li.active a,
+			li.active a:hover,
+			li.active a:focus {
+				border-bottom-color: @styleColor;
+			}
+		}
+	}
+	&.tabs-vertical.tabs-left {
+		ul.nav-tabs {
+			li a:hover,
+			li.active a,
+			li.active a:hover,
+			li.active a:focus {
+				border-left-color: @styleColor;
+			}
+		}
+	}
+	&.tabs-vertical.tabs-right {
+		ul.nav-tabs {
+			li a:hover,
+			li.active a,
+			li.active a:hover,
+			li.active a:focus {
+				border-right-color: @styleColor;
+			}
+		}
+	}	
+
+
+// Lists
+ul.list.icons li i {
+	color: @styleColor;
+}
+
+// Icons
+i.icon-featured {
+	background-color: @styleColor;
+}
+
+.parallax blockquote i.icon-quote-left {
+	color: @styleColor;
+}
+
+section.video blockquote i.icon-quote-left {
+	color: @styleColor;
+}
+
+// Header
+#navbar {
+
+	nav ul.navbar-nav {
+
+		ul.dropdown-menu,
+		li.dropdown.open .dropdown-toggle,
+		li.active a,
+		li > a:hover,
+		li.dropdown:hover a {
+			color: #FFF;
+			background-color: @styleColor;
+		}
+
+		ul.dropdown-menu li:hover > a {
+			background-color: lighten(@styleColor, 10%);
+		}
+
+		li.dropdown:hover ul.dropdown-menu li > a {
+			background: none;
+		}
+
+		li.dropdown:hover ul.dropdown-menu li > a:hover {
+			background: lighten(@styleColor, 5%);
+		}
+	}
+
+	&.single-menu {
+
+		nav ul.navbar-nav {
+
+			li.active > a {
+				border-top: 5px solid @styleColor;
+			}
+
+		}
+
+	}
+
+	&.darken-top-border {
+
+		border-top: 5px solid darken(@styleColor,5%) ;
+
+	}
+
+	&.colored {
+
+		.header-top {
+			background-color: @styleColor;
+
+			ul.nav-top li a:hover {
+				background-color: lighten(@styleColor, 5%) ;
+			}
+
+		}
+
+	}
+
+	&.flat-menu {
+
+		nav ul.navbar-nav {
+
+			li > a,
+			li.active > a {
+				color: #666;
+			}
+
+			li.active > a {
+				color: @styleColor;
+				background-color: transparent ;
+			}
+
+			li > a:hover,
+			li.dropdown:hover a {
+				color: #FFF;
+				background-color: @styleColor ;
+			}
+
+		}
+
+	}
+
+	nav.mega-menu ul.navbar-nav li.mega-menu-item ul.dropdown-menu {
+		border-top-color: @styleColor;
+	}
+
+
+}
+
+// Testimonial
+blockquote.testimonial {
+	background: lighten(@styleColor, 5%);
+}
+
+.testimonial-arrow-down {
+	border-top-color: lighten(@styleColor, 5%);
+}
+
+// Featured Box
+.featured-box-secundary {
+	i.icon-featured {
+		background-color: @styleColor;
+	}
+	h4 {
+		color: @styleColor;
+	}
+	.box-content {
+		border-top-color: @styleColor;
+	}
+}
+
+.pricing-table .most-popular h3 {
+	background-color: @styleColor;
+}
+
+// Timeline
+section.timeline .timeline-box.left:before,
+section.timeline .timeline-box.right:before {
+	background: @styleColor;
+	box-shadow: 0 0 0 3px #FFF, 0 0 0 6px @styleColor;
+}
+
+// History
+ul.history li .featured-box .box-content {
+	border-top-color: @styleColor;
+}
+
+// Blog
+.recent-posts .date, article.post .post-date {
+	.month {
+		background-color: @styleColor;
+	}
+	.day {
+		color: @styleColor;
+	}
+}
+
+// Home
+.slider .tp-bannertimer {
+	background-color: @styleColor;
+}
+
+.home-intro p em {
+	color: lighten(@styleColor, 10%);
+}
+
+.home-concept strong {
+	color: @styleColor;
+}
+
+// Shop
+.shop {
+	ul.products li.product .onsale {
+		background-color: @styleColor;
+		border-bottom-color: darken(@styleColor, 8%);
+	}
+
+	.star-rating span,
+	.cart-totals tr.total .amount {
+		color: @styleColor;
+	}
+}
+
+// Footer
+#footer {
+	.footer-ribbon {
+		background: @styleColor;
+	}
+
+	.footer-ribbon:before {
+		border-right-color: darken(@styleColor, 15%);
+	}
+}
+
+// Boxed
+body.boxed .body {
+	border-top-color: @styleColor;
+}
